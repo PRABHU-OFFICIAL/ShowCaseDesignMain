@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShowCaseDesignMain</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="new_here_signup">New here ? SignUp.</string>
+    <string name="already_have_and_account_sign_in">Already have and account? Sign In.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="fullname">FullName</string>
+    <string name="buyer_dashboard">Buyer Dashboard</string>
+    <string name="seller_dashboard">Seller Dashboard</string>
+    <string name="choose_seller">Choose Seller</string>
+    <string name="choose_buyer">Choose Buyer</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_videos">Add Videos</string>
+</resources>

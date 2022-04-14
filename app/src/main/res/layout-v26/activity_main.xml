@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,68 +11,27 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/nav_view">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/dashboard"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_centerInParent="true"
-                />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/add_videos"
-                style="@style/Widget.MaterialComponents.Button.Icon"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_centerInParent="true"
-                android:backgroundTint="@color/black"
-                android:insetLeft="0dp"
-                android:insetTop="0dp"
-                android:insetRight="0dp"
-                android:insetBottom="0dp"
-                android:tooltipText="Add Product Videos"
-                app:icon="@drawable/ic_addbox"
-                app:iconPadding="0dp"
-                app:iconSize="24dp"
-                android:layout_above="@id/logout"
-                android:layout_alignParentEnd="true"
-                android:layout_marginBottom="5dp"
-                android:layout_marginRight="20dp"
-                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Rounded" />
-
-            <Button
-                android:id="@+id/logout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_alignParentBottom="true"
-                android:backgroundTint="@color/black"
-                android:text="@string/log_out"
-                />
-
-        </RelativeLayout>
-
-    </FrameLayout>
+        android:layout_above="@+id/bottom_nav_bar">
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
+
+
+</FrameLayout>
+
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
+        android:id="@+id/bottom_nav_bar"
         android:layout_alignParentBottom="true"
-        android:background="@color/white"
-        app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/bottom_nav_menu">
+        android:background="#FFF"
+        app:cnb_menuResource="@menu/bottom_nav_menu"
+        android:padding="5dp"
+        android:elevation="16dp"
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        />
 
 
 

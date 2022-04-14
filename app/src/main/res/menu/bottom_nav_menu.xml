@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home"
-        android:title="" />
+        app:cnb_iconColor="#2196F3"
+        android:title="Home" />
 
     <item
         android:id="@+id/nav_search"
         android:icon="@drawable/ic_search"
-        android:title="" />
+        app:cnb_iconColor="#F44336"
+        android:title="Search" />
     <item
         android:id="@+id/nav_notification"
         android:icon="@drawable/heart"
-        android:title="" />
+        app:cnb_iconColor="#4CAF50"
+        android:title="Notifications" />
 
     <item
         android:id="@+id/nav_profile"
         android:icon="@drawable/ic_profile"
-        android:title="" />
+        app:cnb_iconColor="#FF9800"
+        android:title="Profile" />
 
 </menu>

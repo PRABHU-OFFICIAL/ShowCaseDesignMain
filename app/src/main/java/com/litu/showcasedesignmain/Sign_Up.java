@@ -80,7 +80,9 @@ public class Sign_Up extends AppCompatActivity {
                             userInfo.put("FullName", name.getText().toString());
                             userInfo.put("UserEmail", email.getText().toString());
                             userInfo.put("UserName", username.getText().toString());
-                            userInfo.put("Password", password.getText().toString());
+                            userInfo.put("Bio", "Hey there , I am new here");
+                            userInfo.put("ProfilePic", "gs://showcase-3322d.appspot.com/Default Images/profile.png");
+                           // userInfo.put("Password", password.getText().toString());
 
                             // Specifying whether the user is a Seller or a Buyer
 

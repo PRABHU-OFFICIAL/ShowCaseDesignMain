@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShowCaseDesignMain">
         <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
             android:name=".Sign_Up"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Sign_In"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,13 +25,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Sign_In"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
